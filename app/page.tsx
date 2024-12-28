@@ -8,10 +8,9 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="container mx-auto p-4 space-y-8">
+    <main className="max-w-3xl mx-auto p-4 space-y-8 pt-24">
       <h1 className="text-4xl font-bold text-center">Image Resizer</h1>
       <ImageZipper />
     </main>
   )
 }
-
